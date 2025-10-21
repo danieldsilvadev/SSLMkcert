@@ -56,8 +56,8 @@ E deixei assim:
     location / {
         try_files $uri $uri/ =404;
     }
-}
 
 Após salvar as alterações e reiniciar o Nginx, o site local passou a funcionar com HTTPS,
+
 
 
